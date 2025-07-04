@@ -1,6 +1,6 @@
 # 🚀 Observability Stack
 
-Repositório dedicado à configuração da stack de observabilidade, contendo arquivos YAML para provisionamento, configuração e gerenciamento dos serviços necessários ao monitoramento de aplicações.
+Repositório dedicado à configuração da stack de observabilidade, contendo arquivos YAML para provisionamento, configuração e gerenciamento dos serviços necessários ao monitoramento de aplicações juntamente com os dashboards contruídos.
 
 ## 🛠️ Tecnologias e Ferramentas
 
