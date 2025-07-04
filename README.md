@@ -26,24 +26,6 @@ Repositório dedicado à configuração da stack de observabilidade, contendo ar
 
 Facilitar a implantação de um stack completo de observabilidade, pronto para monitorar aplicações containerizadas ou bare-metal, oferecendo visibilidade completa de métricas, logs e alertas.
 
-## 🚀 Como utilizar
-
-1. Clone o repositório:
-
-```bash
-git clone https://github.com/seu-usuario/observability-stack.git
-```
-
-2. Aplique os manifests (exemplo usando `kubectl`):
-
-```bash
-kubectl apply -f loki/
-kubectl apply -f promtail/
-kubectl apply -f grafana/
-# etc
-```
-
-3. Acesse o Grafana na porta configurada para visualizar dashboards.
 
 ## 📝 Contribuições
 
