@@ -1,10 +1,6 @@
-apt install nginx
+#!/bin/bash
 
-nginx -v
-
-service nginx status#!/bin/bash
-
-set -e
+set -e 
 
 echo "==> Atualizando pacotes..."
 apt update -y
