@@ -1,2 +1,73 @@
-# Observability-Stack
-Repositório criado para adicionar os arquivos yamls dos serviços de observabilidade
+# 🚀 Observability Stack
+
+Repositório dedicado à configuração da stack de observabilidade, contendo arquivos YAML para provisionamento, configuração e gerenciamento dos serviços necessários ao monitoramento de aplicações.
+
+## 🛠️ Tecnologias e Ferramentas
+
+* **[Loki](https://grafana.com/oss/loki/)** `v3.2.0`
+  Sistema de agregação e indexação de logs escalável e eficiente.
+
+* **[Promtail](https://grafana.com/docs/loki/latest/clients/promtail/)** `v3.2.0`
+  Agente para coleta e envio de logs para o Loki.
+
+* **[Grafana](https://grafana.com/)** `v11.2.0`
+  Painéis de visualização e análise de métricas e logs.
+
+* **[MySQL](https://www.mysql.com/)** `8.0.42`
+  Banco de dados utilizado para persistência de dados e integrações.
+
+* **[Nginx](https://nginx.org/)** `1.24.0`
+  Servidor web utilizado como proxy reverso e balanceador de carga.
+
+* **[Ubuntu](https://ubuntu.com/)** `24.04.1`
+  Distribuição Linux utilizada como ambiente base para o provisionamento.
+
+## 📂 Estrutura do repositório
+
+.
+├── loki/
+│   └── loki-config.yaml
+├── promtail/
+│   └── promtail-config.yaml
+├── grafana/
+│   └── grafana-datasources.yaml
+├── nginx/
+│   └── nginx.conf
+└── mysql/
+    └── mysql-init.sql
+
+## 📦 Objetivo
+
+Facilitar a implantação de um stack completo de observabilidade, pronto para monitorar aplicações containerizadas ou bare-metal, oferecendo visibilidade completa de métricas, logs e alertas.
+
+## 🚀 Como utilizar
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/seu-usuario/observability-stack.git
+```
+
+2. Aplique os manifests (exemplo usando `kubectl`):
+
+```bash
+kubectl apply -f loki/
+kubectl apply -f promtail/
+kubectl apply -f grafana/
+# etc
+```
+
+3. Acesse o Grafana na porta configurada para visualizar dashboards.
+
+## 📝 Contribuições
+
+Contribuições são bem-vindas!
+Sinta-se livre para abrir issues ou pull requests para melhorias, correções ou sugestões de novas funcionalidades.
+
+## 📄 Licença
+
+Este projeto está sob a licença **MIT** — consulte o arquivo [LICENSE](./LICENSE) para mais detalhes.
+
+---
+
+Se quiser, posso **ajudar a montar o passo a passo completo de instalação**, além de **escrever um CHANGELOG.md** ou **diagramas** para o seu projeto — é só falar!
