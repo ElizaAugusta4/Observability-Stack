@@ -22,20 +22,6 @@ Repositório dedicado à configuração da stack de observabilidade, contendo ar
 * **[Ubuntu](https://ubuntu.com/)** `24.04.1`
   Distribuição Linux utilizada como ambiente base para o provisionamento.
 
-## 📂 Estrutura do repositório
-
-.
-├── loki/
-│   └── loki-config.yaml
-├── promtail/
-│   └── promtail-config.yaml
-├── grafana/
-│   └── grafana-datasources.yaml
-├── nginx/
-│   └── nginx.conf
-└── mysql/
-    └── mysql-init.sql
-
 ## 📦 Objetivo
 
 Facilitar a implantação de um stack completo de observabilidade, pronto para monitorar aplicações containerizadas ou bare-metal, oferecendo visibilidade completa de métricas, logs e alertas.
