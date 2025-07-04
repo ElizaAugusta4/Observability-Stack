@@ -53,7 +53,3 @@ Sinta-se livre para abrir issues ou pull requests para melhorias, correções ou
 ## 📄 Licença
 
 Este projeto está sob a licença **MIT** — consulte o arquivo [LICENSE](./LICENSE) para mais detalhes.
-
----
-
-Se quiser, posso **ajudar a montar o passo a passo completo de instalação**, além de **escrever um CHANGELOG.md** ou **diagramas** para o seu projeto — é só falar!
