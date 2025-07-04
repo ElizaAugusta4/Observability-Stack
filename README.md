@@ -26,7 +26,7 @@ Repositório dedicado à configuração da stack de observabilidade, contendo ar
 
 Facilitar a implantação de um stack completo de observabilidade, pronto para monitorar aplicações containerizadas ou bare-metal, oferecendo visibilidade completa de métricas, logs e alertas.
 
-## Dashboards 
+## 📦 Dashboards 
 
 ![Dashboard MySQL](./images/mysql.png)
 ![Dashboard Nginx](./images/nginx.png)
