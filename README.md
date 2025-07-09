@@ -36,6 +36,8 @@ Facilitar a implantação de um stack completo de observabilidade, pronto para m
 
 ![Dashboard MySQL](./images/mysql.png)
 ![Dashboard Nginx](./images/nginx.png)
+![Dashboard Prometheus](./images/prometheus.png)
+
 
 
 ## 📝 Contribuições
