@@ -38,13 +38,3 @@ Facilitar a implantação de um stack completo de observabilidade, pronto para m
 ![Dashboard Nginx](./images/nginx.png)
 ![Dashboard Prometheus](./images/prometheus.png)
 
-
-
-## 📝 Contribuições
-
-Contribuições são bem-vindas!
-Sinta-se livre para abrir issues ou pull requests para melhorias, correções ou sugestões de novas funcionalidades.
-
-## 📄 Licença
-
-Este projeto está sob a licença **MIT** — consulte o arquivo [LICENSE](./LICENSE) para mais detalhes.
