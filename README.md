@@ -4,22 +4,28 @@ Repositório dedicado à configuração da stack de observabilidade, contendo ar
 
 ## 🛠️ Tecnologias e Ferramentas
 
-* **[Loki](https://grafana.com/oss/loki/)** `v3.2.0`
+* **[Loki](https://grafana.com/oss/loki/)** `v3.2.0`  
   Sistema de agregação e indexação de logs escalável e eficiente.
 
-* **[Promtail](https://grafana.com/docs/loki/latest/clients/promtail/)** `v3.2.0`
+* **[Promtail](https://grafana.com/docs/loki/latest/clients/promtail/)** `v3.2.0`  
   Agente para coleta e envio de logs para o Loki.
 
-* **[Grafana](https://grafana.com/)** `v11.2.0`
+* **[Grafana](https://grafana.com/)** `v11.2.0`  
   Painéis de visualização e análise de métricas e logs.
 
-* **[MySQL](https://www.mysql.com/)** `8.0.42`
+* **[Prometheus](https://prometheus.io/)** `v2.52.0`  
+  Sistema de monitoramento e alerta baseado em séries temporais, essencial para coleta de métricas.
+
+* **[Zabbix](https://www.zabbix.com/)** `v7.0`  
+  Plataforma de monitoramento robusta para infraestrutura, servidores e serviços, com suporte a agentes, proxies e alertas avançados.
+
+* **[MySQL](https://www.mysql.com/)** `8.0.42`  
   Banco de dados utilizado para persistência de dados e integrações.
 
-* **[Nginx](https://nginx.org/)** `1.24.0`
+* **[Nginx](https://nginx.org/)** `1.24.0`  
   Servidor web utilizado como proxy reverso e balanceador de carga.
 
-* **[Ubuntu](https://ubuntu.com/)** `24.04.1`
+* **[Ubuntu](https://ubuntu.com/)** `24.04.1`  
   Distribuição Linux utilizada como ambiente base para o provisionamento.
 
 ## 📦 Objetivo
